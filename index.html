@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Diamons are for the Boys</title>
+    <title>Unity WebGL Player | Diamonds are for the Boys</title>
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" style="width: 960px; height: 540px; background: #FFFFFF"></canvas>
-    <script src="Build/WebBuild2.loader.js"></script>
+    <script src="Build/WebBuild.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/WebBuild2.data",
-        frameworkUrl: "Build/WebBuild2.framework.js",
-        codeUrl: "Build/WebBuild2.wasm",
+        dataUrl: "Build/WebBuild.data",
+        frameworkUrl: "Build/WebBuild.framework.js",
+        codeUrl: "Build/WebBuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Ben Mora",
-        productName: "Diamons are for the Boys",
+        productName: "Diamonds are for the Boys",
         productVersion: "1.0",
       });
     </script>
